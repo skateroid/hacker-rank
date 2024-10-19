@@ -3,12 +3,7 @@ package week4;
 public class NumberLineJumps {
 
     public static void main(String[] args) {
-        var input = kangaroo(0, 5, 3, 3);
-        if (input.equals("YES")) {
-            System.out.println("YES");
-        } else {
-            System.out.println("NO");
-        }
+        System.out.println(kangaroo(0, 5, 3, 3));
     }
 
     public static String kangaroo(int x1, int v1, int x2, int v2) {
