@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.stringArray;
 
 import java.util.HashMap;
 import java.util.Map;
